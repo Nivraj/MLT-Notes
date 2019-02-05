@@ -1,0 +1,149 @@
+Neural Networks
+
+M/C vs Deep 
+-> M/C -> You will be able to interpret the data and able to define.,
+
+
+-> (Deep) Dump data to alg and let alg do all stuff.
+-> (Deep) comes with cost -> Based on Alg -> Knowlegde on what Alg is, and what would be outcome.
+-> Deep is black box we cannot interpret what would be the number and will be in numbers
+-> In deep learning is not a Algorithm., It is based on Neural Network neurons;
+	Deep learning should be performed on huge data. which is not manageable by other tool.
+-> Deep learning will give acurray similar 
+
+More data more experiance..., but saturates at a upperlimit.
+
+But in Deep learning -> Has no upperlimit.. it is hungry of data..
+example -- Alexa, IBM watson
+
+
+IBM Watson - Scans if human has a tumor or not based on pattern available and image color/texture.. which more accurate.
+
+
+Deep learning can only be done an a heavy processing computers. not on personal pc's
+Can be done on cloud/GPU nodes.
+
+Predictive analysis:
+-------------------
+Examples: Loan Payment prediction and customre credit policy analysis
+Automated trading systems
+Credit scoring -- CIBIL score
+RisK Management
+Fraud Detection
+Classification and clustering customers based on trading targeted market
+Collection analytics -> understand history of default customer history.
+Retail Industory -
+	Market Basket Analysis
+Telecom Industory -
+	Automated Email communication
+	Fraudlent pattern 
+
+------------------------------------------------------------------------------------------------------------
+Machine Learning For Dummies :-
+----------------------------
+Discussed in here : 
+linear vs non linear 
+
+What is learning?
+--------------------
+Learn from Experiance
+
+(( What are you intending to achieve? what is final outcome?
+
+Keywords :
+1)Task:
+	--> Classification - (Supervised Learning)
+		- Figuring out based on know pattern example image of a cat or dog
+		Binary Classification --(Two classes -> weather yes or not/true or false/genuine or not/ possible or not possible)
+			(Buy/Sell/Hold - Model)
+			If you have no idea how many class you have in your data this is a problem, but it is possible.
+			Example: Customer Retaintion (iteration analysis)
+		different example:
+		Climate conditions weather it will rain or not
+
+
+		Multi Classification-- ( More than one class)
+			Financial instutions  
+			-> Technical Analysis & Fundamental Analysis
+				Fundamental Analysis --what type of company it is -> how much revenue is generated.. what all market is it covering
+						-- 360 view of the company when it has ups and downs..
+				Technical Analysis  -- Is Kind of IntraDay Analysis
+		
+	--> Regression -- (Supervised Learning)
+		Predicted number is Regression
+		
+	--> Clustoring -- (Unsupervised Learning) If i have no y axis to define
+		example :I have 2 folders with cat and dog in separate folders.Made machine to understand based on category male or female,
+				how they look made it learn based on cluster/category
+				Made machine to learn it and then mixed folder, Machine should be able to cluster based on the pattern.
+
+		Pathology labs- does heat map on patiences to detect type of epidemic on dailybases
+		Clustoring the whole geographical data and finding the solution
+		
+		Rating False Positive or False Negative of the illness and mark it weather serious or not if only 99.9 % accurate.
+
+2)Experiance
+
+3)Performance 
+
+
+
+
+
+Supervised Learning vs Unsupervised Learning:
+---------------------------------------------
+
+Supervised Learning <-- Both inputs and outputs goes hand in hand in Algorithm,. and gives you accuracy.
+
+SemiSupervised Learning --> Have lables for some data and have no lables for some data
+	We will run model for lables and then run for the one's that are not having lable. we dont directly start clustering.
+Unsupervised Learning <-- U just have inputs but not output
+Usecases: 
+--Outliers
+--Anomaly Detection -
+		Fraud Detection -- No one dont know how does Fraud looks like in the form of transcation
+
+	Once the pattern is detected over time the unsupervised data starts get labelled and supervised.
+
+	
+
+
+Why do people generate data?
+
+OverFitting in ML - How to avoid that
+--------------------------------------
+When it mugs up the data which is seen, and gives output without runing algorithm
+Training error is small and Cross validation is very low, and testing error is very high then it is overfiting
+Works only unseen data.
+
+UnderFitting in ML - How to avoid that
+
+
+
+
+
+Books - 
+https://www.cse.iitb.ac.in/~cs725
+http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+Tom Mishall
+PRML
+
+
+
+Need to see: 
+
+OverFitting in ML - How to avoid that
+PCA - Principle Component Analysis
+ICA - Independent Component analysis 
+Deep learning under Supervised and Unsupervised.
+Difference between Classification and Regrerssion :
+https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/
+Time Series Analysis
+Vakrangi business model - shares from 480 to 18 no market strategy
+
+PNB Bank-- LIO and LOR never got caught in transcation --> Look scenario.
+
+
+
+
+
