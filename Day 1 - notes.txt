@@ -3,6 +3,8 @@ Neural Networks
 Algorith is code
 Model is output outcome of Algorithm
 
+Model = ALgorithm(data)
+
 
 
 M/C vs Deep 
@@ -89,17 +91,18 @@ Keywords :
 		
 		
 		example - Customer visiting store/Bank we dont have pattern purpose they have come but we can make algorithm run based on pattern and decide use case by clustering based on pattern.
+
 Note : Clustering is not always qualitative 
-		example - Dimensionality Reduction - Big matrix reducing into a smaller one.
+
+
+	example - Dimensionality Reduction - Big matrix reducing into a smaller one.
 		
 
 2)Experiance
 Learning comes from experiance--> that means on Data --> More data you have i.e. history more accurtae data is.
 
 
-3)Performance 
-
-
+3)Performance -- Increase based on Experiance
 
 
 
