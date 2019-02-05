@@ -1,6 +1,39 @@
-Access and load data
-Process Data Flow ---> Data cleaning + Scale( Min Max Scaling) + Standarisation + Binarization
-Derive feature based on processed data
+Systematic Workflow process of Machine Learning
+------------------------------------------------
+1. Access and load data
+2. Process Data Flow ---> Data cleaning + Scale( Min Max Scaling) + Standarisation + Binarization
+3. Derive feature based on processed data
+4. Train Model 
+5. choose the best suitable model
+6. deploy best model and generate output
+
+
+Job of Machine Learning: To find best Fit value with minimum error
+SDG** (look google for referance) 
+
+Formula --> y = mx + c 
+ML --> y= w0 + w1   --> we need to find what is w0 and w1 not the formula.
+We need to see only w0 & w1.
+
+If i add a quadratic equation 
+formula --> y= mx + c +x2
+ML --> w0 +w2+w32
+
+Interns we went from linear regression to polynomial regression.
+
+
+Note: Linear regression or Polymomial regression depends on inputs leading to multi variant linear regression or Multi polynomial regression
+
+Non parametric Algorithm - Algorithms which do not learn on functional firm, Machine learns entire set of all parameters ( it may learn 2 or 20)
+
+support algorithms:
+Navie base Regression algorithm
+Support vector regression
+Desicion tree
+Logistic Regression
+LDA - Linear Discriminat Algorithm
+
+** Tolerance comes into picture when Algorithm is always yielding wrong predictions just limit the threshold and exit from the iteration
 
 
 
@@ -8,6 +41,7 @@ Derive feature based on processed data
 TF-IDF - Term frequency vs inversed Document frequency --> Used for Sentement Analysis.
 Edge detection
 AHC
+SDG process - iterative process of loading data in machine learning algorith
 CLAHC
 Noise Reduction 
 High pass filter/low pass filter
