@@ -101,10 +101,36 @@ Overtime we create more features for value add. and once we get the feature we a
 
   Topic - Feature Selection- In python 'their is default fuction that creates 10 different feature based on algorithm
   example - chi-square test/Z test /F test
-
+--------------------------------------    
+  Solution for Underfit and over fit
+  ------------------------------------
+  
+  when training error is high and testing error is less or training error is low and testing error is high
+  what should we do:
+    1. Change to more flexible model ( instead of Lineage regression go with support vector)
+    2. Increase data (should be done only one is done. because it might not change much. but might some time)
+    3. Increase Model training time or iterations
+    4. Remove redundate Features
+    5. Feature selection/Feature preprocessing
+    6. Data preprocessing7.
+    7. Regularization Regression(****** best answer*****)
+    
+    
+    
+    
 
 Hypothesis - telling this feature is important
 Null hypothesis - this says no Feature is important
+
+
+Neuarl netwrok expects Normalised data
+Parameteric Machine learning examples: expects standardised data
+
+Logistic Regression 
+Linear Discriminant Analysis
+Parceptron
+Benifits -- simple,speed and less data
+
 
       
       
