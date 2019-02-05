@@ -115,12 +115,18 @@ SemiSupervised Learning --> Have lables for some data and have no lables for som
 	We will run model for lables and then run for the one's that are not having lable. we dont directly start clustering.
 Unsupervised Learning <-- U just have inputs but not output
 Usecases: 
---Outliers
+--Outliers - Any datapoint that lies more than 2 Standard deviation away from mean 
 --Anomaly Detection -
 		Fraud Detection -- No one dont know how does Fraud looks like in the form of transcation
 
 	Once the pattern is detected over time the unsupervised data starts get labelled and supervised.
+Gaussian Distribution or Bi-nomial Distribution (Outliers):
+https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/gaussian-distribution
+https://en.wikipedia.org/wiki/File:Empirical_Rule.PNG
 
+Mean -- is average
+Median -- is mid of ascending data
+Mode -- set of data values is the value that appears most often
 	
 
 
@@ -147,7 +153,32 @@ What is unbalanced dataset?
 Are not equaly represented.
 
 What is balanced dataset?
-No of instances are equally represented
+No of instances are equally represented+
+--------------------------------------------------------------------------------------
+
+Systematica Machine Learning Workflow ---
+
+NLP -
+Lingustic Language processing -
+Pos = Parts of speech processing on sentence and identifying actions of each word (noun,verb,adjective?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Books - 
 https://www.cse.iitb.ac.in/~cs725
