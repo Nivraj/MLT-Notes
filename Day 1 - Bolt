@@ -1,0 +1,33 @@
+Access and load data
+Process Data Flow ---> Data cleaning + Scale( Min Max Scaling) + Standarisation + Binarization
+Derive feature based on processed data
+
+
+
+
+TF-IDF - Term frequency vs inversed Document frequency --> Used for Sentement Analysis.
+Edge detection
+AHC
+CLAHC
+Noise Reduction 
+High pass filter/low pass filter
+
+
+
+
+**Feature selection :**
+Feature engineering for ML - Generating new features out of existing feature.
+examples - Sales data based on Month dimension and providing a stastic based on customer behavior and provide offers 
+      -- Parts of speech ( features generating from the sentance based upon text)
+
+Overtime we create more features for value add. and once we get the feature we are looking for we start reducing feature.
+
+  Topic - Feature Selection- In python 'their is default fuction that creates 10 different feature based on algorithm
+  example - chi-square test/Z test /F test
+
+
+Hypothesis - telling this feature is important
+Null hypothesis - this says no Feature is important
+
+      
+      
