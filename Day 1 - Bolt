@@ -25,6 +25,10 @@ Interns we went from linear regression to polynomial regression.
 Note: Linear regression or Polymomial regression depends on inputs leading to multi variant linear regression or Multi polynomial regression
 
 Non parametric Algorithm - Algorithms which do not learn on functional firm, Machine learns entire set of all parameters ( it may learn 2 or 20)
+These have flexibilty to learn at any number input process.
+
+
+
 
 support algorithms:
 Navie base Regression algorithm
@@ -46,13 +50,52 @@ CLAHC
 Noise Reduction 
 High pass filter/low pass filter
 
-
-
-
 **Feature selection :**
 Feature engineering for ML - Generating new features out of existing feature.
 examples - Sales data based on Month dimension and providing a stastic based on customer behavior and provide offers 
       -- Parts of speech ( features generating from the sentance based upon text)
+
+**** process/option descisions 
+--> Train test split
+--> Shuffle split --> you will accuracy when you shuffle the input and come to confidence
+--> K -Fold Cross vaildation :shuffle split--> Shuffle split further from A's output <-> i.e. mean cross validation evaluating the outcome
+            spitting it again and again into parts and holding each subsequent part for testing and training and get accuracy.
+            Average of the it is the accuracy.
+     Default and most common used cross validation 
+     Note : Each iteration is flushed out once training is done
+--> LOOCV -- when k is equal to n it leaves one record and trains 99 records in 100 and leaves 1 record to test.
+
+Iterate Algorithms:
+--> select best model
+--> Fine tune it -- called Hyper parameter tuning -- this is done by creating dimensional grids.
+      Brute for Approch -- prepare a grid out of dataset
+      K value 5 was take as defult - but its not the optimal k
+      will create 3 different grids K,L,M with different sets and pass to ALgorithm and test and gives you the best percentage out of which 
+      select best percentage.
+ in hyper parameter tuning we define a value in grid generally sepcifed explcitly,, but usually we specified implicity 
+ example = y = w0 + w1 + a (If i gave different value to a it will chnage outcome of the algorithm) 
+ with each value of a we will end up with new value of accuracy.
+ Algorithsm
+ XG-Boost
+ gradient boost
+ 
+ ---> save model to hard drive using joblib package.
+ Pipe line concept can be also done 
+ 
+ 
+
+
+interview question -- How do i select value of k in K mean
+worst Answer -- Giving answer of k
+best Answer -- Never give value of K --> 
+                if a value of k is very high amount of testing is less., =-- this is over fit
+                if the vaule of k is very less the learning/training is very less. =--this is under fit
+            Industry standard is 5/7
+      
+            
+              
+            
+
 
 Overtime we create more features for value add. and once we get the feature we are looking for we start reducing feature.
 
