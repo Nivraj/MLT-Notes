@@ -5,6 +5,8 @@ Model is output outcome of Algorithm
 
 Model = ALgorithm(data)
 
+i/p,o/p --> Alg(data)--> yields Model--> which is predictive data
+
 
 
 M/C vs Deep 
@@ -103,9 +105,7 @@ Learning comes from experiance--> that means on Data --> More data you have i.e.
 
 
 3)Performance -- Increase based on Experiance
-
-
-
+-----------------------------------------------------------------------------------
 Supervised Learning vs Unsupervised Learning:
 ---------------------------------------------
 
@@ -124,19 +124,30 @@ Usecases:
 	
 
 
-Why do people generate data?
-
 OverFitting in ML - How to avoid that
 --------------------------------------
 When it mugs up the data which is seen, and gives output without runing algorithm
 Training error is small and Cross validation is very low, and testing error is very high then it is overfiting
 Works only unseen data.
 
-UnderFitting in ML - How to avoid that
+UnderFitting in ML - How to avoid that?
+
+****Why do people generate data?
+using SMOTE(Synthetic Minority Over-sampling Technique)
+References:
+https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis
+https://arxiv.org/pdf/1106.1813.pdf
 
 
 
+Can you judge the relaibilty of data?
+-- can only test quality of data but not relay on it.
 
+What is unbalanced dataset?
+Are not equaly represented.
+
+What is balanced dataset?
+No of instances are equally represented
 
 Books - 
 https://www.cse.iitb.ac.in/~cs725
