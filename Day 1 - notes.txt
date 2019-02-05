@@ -136,6 +136,8 @@ When it mugs up the data which is seen, and gives output without runing algorith
 Training error is small and Cross validation is very low, and testing error is very high then it is overfiting
 Works only unseen data.
 
+Method -- proving is done ( cutting down the excess data)
+
 UnderFitting in ML - How to avoid that?
 
 ****Why do people generate data?
