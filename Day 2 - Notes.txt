@@ -46,6 +46,9 @@ https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-shou
   -Bias, Variance, Trade off -- https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
   
 Words & Terminology-
+-----------------------------
 Accuracy and precision
 Bull's Eye view
+
+
 
