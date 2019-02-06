@@ -1,0 +1,20 @@
+
+
+Loss function 
+First order condition(derivative) of the loss  fuction should be zero
+1. Sum of Errors
+2. Royle's theorem : 
+  It has to be continues
+  Its RHL and LHL should be available 
+  and RHL=LHL should be equal
+  
+  This absolute fuction is not differentiable. 
+3. Sum of squares of Errors:
+
+
+
+
+Need to see: 
+  -loss function in machine learning
+  
+
