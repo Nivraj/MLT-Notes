@@ -1,4 +1,4 @@
-
+https://heartbeat.fritz.ai/machine-learning/home
 
 Loss function 
 First order condition(derivative) of the loss  fuction should be zero
