@@ -12,9 +12,17 @@ First order condition(derivative) of the loss  fuction should be zero
 3. Sum of squares of Errors:
 
 
+OLS - Ordinary least square. solution is a closed form solution
+Derivate of loss function
+
+
 
 
 Need to see: 
+https://blog.algorithmia.com/introduction-to-loss-functions/
+https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
+https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0+
+
   -loss function in machine learning
   
 
