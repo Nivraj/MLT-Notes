@@ -1,0 +1,4 @@
+Logistic Regression - Its is for Binary classification.
+Means -- we predict the probabilties of an instance to belong to a default class. ( Through out the class one hypothesis will be taken as default class)
+example  : y="male"
+here default class assumes y is by default male under that derative class
